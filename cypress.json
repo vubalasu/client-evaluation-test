@@ -1,0 +1,16 @@
+{
+  "chromeWebSecurity":false,
+  "defaultCommandTimeout": 12000,
+  "pageLoadTimeout": 30000,
+  "reporter": "mochawesome",
+  
+  "baseUrl": "https://www.bbc.co.uk/",
+  "viewportWidth": 1536,
+  "viewportHeight": 960,
+  
+  "testFiles": "**/*.feature",
+  "retries": {
+    "runMode": 0
+  },
+  "projectId": "test1212"
+}

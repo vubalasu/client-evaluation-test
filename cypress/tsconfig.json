@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    // be explicit about types included
+    // to avoid clashing with Jest types
+    "types": ["cypress", "cypress-cucumber-preprocessor"],
+    "isolatedModules": false
+  },
+  "include": ["../node_modules/cypress", "./**/*.ts", "../src/mocks/*.ts"]
+}
